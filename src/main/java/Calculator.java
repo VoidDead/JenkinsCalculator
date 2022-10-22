@@ -1,8 +1,7 @@
 import java.util.UUID;
 
 class Calculator {
-
-    bad code here
+    
 
     Calculator(){
 
