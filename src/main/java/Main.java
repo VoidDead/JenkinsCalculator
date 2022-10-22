@@ -11,7 +11,9 @@ public class Main {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         boolean loop = true;
+        System.out.println("Welcome to the Calculator");
         while (loop) {
+            System.out.println("Please enter a command:");
             String input = reader.readLine();
             ArrayList<String> inputs = new ArrayList<>(Arrays.asList(input.split("\\s+")));
             int numericOutput;
